@@ -62,7 +62,7 @@ public class Calculator implements ElementaryArithmetic, Circle, Square {
 	}
 
 	@Override
-	public boolean areCoprime(int a, int b) {
+	public boolean getGCD(int a, int b) {
 		// Calculate gcd
 		a = extractedMethod(a, b);
 		// Check if coprime
@@ -98,3 +98,4 @@ public class Calculator implements ElementaryArithmetic, Circle, Square {
 	}
 
 }
+

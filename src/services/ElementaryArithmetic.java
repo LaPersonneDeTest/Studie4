@@ -53,6 +53,7 @@ public interface ElementaryArithmetic {
 	 * @param b
 	 * @return isCoprime
 	 */
-	public boolean areCoprime(int a, int b);
+	public boolean getGCD(int a, int b);
 
 }
+
